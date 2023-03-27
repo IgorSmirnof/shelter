@@ -1,0 +1,23 @@
+
+@import "./variables.css";
+@import "./fonts.css";
+
+@import "../blocks/body.css";
+@import "../blocks/main.css";
+@import "../blocks/header.css";
+@import "../blocks/nav.css";
+@import "../blocks/start.css";
+
+@import "../blocks/notonly.css";
+@import "../blocks/about.css";
+@import "../blocks/ourfriends.css";
+@import "../blocks/cards.css";
+
+@import "../blocks/help.css";
+@import "../blocks/donation.css";
+@import "../blocks/footer.css";
+
+/* @import ""; */
+
+
+

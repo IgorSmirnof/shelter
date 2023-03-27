@@ -1,0 +1,15 @@
+.main {
+  margin: 0 auto;
+  padding: 0;
+  height: 908px;
+  background-image: url(../images/start-screen-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.main-pets {
+  margin: 0 auto;
+  padding: 0;
+  height: 120px;
+  color: var(--basic-dark);
+}

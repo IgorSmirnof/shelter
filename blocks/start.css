@@ -1,0 +1,34 @@
+.start-screen {
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 0;
+  width: 1200px;
+  height: 728px;
+  position: relative;
+}
+.start-screen__image {
+  position: absolute;
+  width: 698px;
+  height: 728px;
+  right: 0;
+  bottom: 0;
+}
+
+.button_start {
+  margin: 0;
+  padding: 0;
+  width: 207px;
+  height: 52px;
+  text-align: center;
+  line-height: 52px;
+  text-decoration: none;
+  background: #f1cdb3;
+  border-radius: 100px;
+  border: 0px;
+  color: var(--basic-too-dark);
+  transition: 0.3s;
+}
+.button_start:hover {
+  cursor: pointer;
+  background-color: var(--light-pink);
+}

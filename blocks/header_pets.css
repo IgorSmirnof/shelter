@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px 0;
+  width: 1200px;
+  height: 60px;
+}
+.logo__title {
+  margin: 0 auto;
+  color: var(--basic-dark);
+}
+
+.logo__subtext {
+  margin: 0 5px;
+  margin-top: 10px;
+  color: var(--basic-too-dark);
+}

@@ -1,0 +1,15 @@
+:root {
+  --basic-light: #f6f6f6;
+  --basic-gray: #4c4c4c;
+  --basic-dark: #545454;
+  --basic-too-dark: #292929;
+  --base-pink: #f1cdb3;
+  --light-pink: #fddcc4;
+  --butt-light: #cdcdcd;
+  --white: #ffffff;
+  --light: #fafafa;
+  --gray: #b2b2b2;
+
+  --main-font: "Georgia", sans-serif;
+  --text-font: "Arial", sans-serif;
+}

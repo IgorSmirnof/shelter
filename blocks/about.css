@@ -1,0 +1,36 @@
+.about {
+  width: 1200px;
+  height: 408px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+.about__image {
+  margin-left: 175px;
+  margin-right: 120px;
+  width: 300px;
+  height: 408px;
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  width: 430px;
+}
+.about__subtext {
+  width: 430px;
+  color: #4c4c4c;
+}
+
+.about__subtext-paragraf {
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+}
+.about__text {
+  text-align: left;
+  width: 370px;
+  color: #545454;
+}

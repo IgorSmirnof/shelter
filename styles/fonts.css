@@ -1,0 +1,70 @@
+.font-logo {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  align-items: center;
+  color: var(--base-pink);
+}
+.font-logo-sub {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  align-items: center;
+  color: var(--white);
+}
+.font-p {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+}
+.font-butt {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+.font-card {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.font-h2 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  align-items: center;
+}
+.font-h3 {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.font-h4 {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  margin: 0;
+}

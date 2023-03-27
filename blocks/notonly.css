@@ -1,0 +1,15 @@
+.not-only {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  width: 460px;
+  height: 322px;
+  padding-top: 165px;
+}
+.not-only__text {
+  width: 310px;
+  color: var(--white);
+}
+.not-only__subtext {
+  color: var(--butt-light);
+}

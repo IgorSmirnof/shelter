@@ -1,0 +1,95 @@
+.cards__button {
+  width: 52px;
+  height: 52px;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  background-color: var(--basic-light);
+
+  transition: 0.3s;
+}
+.cards__button:hover {
+  cursor: pointer;
+  background-color: var(--base-pink);
+}
+.cards__button_active {
+  background-color: var(--base-pink);
+}
+.cards__button_deactive {
+  border: 2px solid var(--butt-light);
+  color: var(--butt-light);
+}
+.cards__button-l {
+  position: absolute;
+  left: 0px;
+  top: 192px;
+  border: 2px solid var(--base-pink);
+  border-radius: 100px;
+}
+
+.cards__button-r {
+  position: absolute;
+  left: 1150px;
+  top: 192px;
+  border: 2px solid var(--base-pink);
+  border-radius: 100px;
+}
+.cards__button_pets {
+  margin: 0 8px;
+}
+.cards {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  padding-left: 105px;
+  padding-right: 105px;
+  height: 435px;
+}
+
+.cards_pets {
+  margin: 0 auto 30px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 38px;
+  row-gap: 0;
+  padding: 0;
+  width: 1200px;
+  height: 930px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 420px;
+  /* width: 270px; */
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.card__submit {
+  margin: 0 auto;
+  width: 187px;
+  height: 52px;
+  gap: 10px;
+
+  width: 187px;
+  height: 52px;
+  border: 2px solid var(--base-pink);
+  border-radius: 100px;
+  background-color: var(--light);
+  color: #292929;
+  transition: 0.3s;
+}
+.card:hover {
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 1px solid var(--basic-dark);
+  border-radius: 10px;
+}
+.card__submit:hover {
+  cursor: pointer;
+  background-color: var(--base-pink);
+}
